@@ -1,0 +1,127 @@
+body{width:100%;
+    min-width: 960px;
+    margin:0%;
+    padding: 0%;
+    background: linear-gradient(180deg, rgba(255,236,0,1) 21%, rgba(239,18,18,1) 50%, rgba(125,40,40,1) 77%);
+
+}
+
+header{width:100%;
+    display: flex;
+    justify-content:space-between;  
+    align-items: center;  
+    border-bottom: 3px solid brown;
+    
+}
+
+header img{
+    flex-grow: 0;
+    margin-left: 1%;
+    
+}
+
+header h2{
+    margin-right: -30%;   
+    font-family: 'Bungee Spice', cursive, serif;
+    text-align: center;
+}
+
+header nav{
+        margin-right: 6%;
+        width: 30%
+}
+
+#com-borda{ border: 2px solid brown; padding: 3px; border-radius: 15%; }
+
+
+header nav ul li{display:inline-block; list-style-type: none;;
+
+}
+
+nav ul li{margin: 5% 2%}
+
+nav ul li a {text-decoration: none; color: brown; font-family: 'Maven Pro', sans-serif;}
+
+nav ul li a:hover{color: aliceblue;}
+
+nav ul li ul{display: none;position:absolute;}
+
+nav ul li:hover ul{display:block;}
+
+.bordinha {margin: 0% 0% 0% -100%;}
+
+main{
+    margin:0% 0% 0% 0%;
+    width: 40%;
+    padding-left: 5%;
+}
+
+h3{width: 75%;
+font-size: 360%;
+margin:5% 0% ;
+font-family: 'Bebas Neue', cursive, serif;
+color:brown
+}
+
+h4{
+   width: 90%; 
+   font-size: 150%;
+   margin:0% 0% 5% 0%;
+   font-family: 'Maven Pro', sans-serif;
+}
+
+
+
+form{display:flex;
+    flex-wrap: wrap;
+}
+
+input[type = text],input[type=  email]{
+    width:85%;
+    height: 30px;
+    margin:0% 0% 2% 0%;
+    border:none;
+    border-radius: 5px;
+}
+
+input[type = submit] {width:40%;
+    margin-left: 22.5%;
+    height: 30px;
+    cursor:pointer;
+    border:none;
+    background-color:rgba(255,236,0,1) ;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: brown;
+}
+
+figure {
+    margin: -38% 10% 3% 0%;
+    float:right;
+
+}
+
+footer{
+width: 100%;   
+display:flex;
+justify-content:center;
+align-items:baseline;
+padding: 2% 0%;
+background-color: rgb(47, 43, 43);}
+
+footer a{text-decoration: none;color:rgba(255,236,0,1);font-family: 'Maven Pro', sans-serif;}
+
+
+.rodape{margin: 0% 10%;
+}
+
+#vela{margin-left: -30%;}
+
+
+
+
+
+
+
+
+
